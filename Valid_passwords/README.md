@@ -1,0 +1,3 @@
+# Validpasswords
+check if the password contains more than 8 characters, at least an uppercase, a special character etc...
+I wrote 4 diferent ways, the last 2 files i recommend it.
