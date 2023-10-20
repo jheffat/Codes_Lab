@@ -4,7 +4,7 @@ numbers and supported operators .
 
 ex.: "34+7*3-44/2*2.5"
  
-Is a function that will perform same task as eval() does but limited, 
+Is a function that will perform same task as eval() does, but limited, 
 the function is wrote in scientific mode which it follows the arithmetic rules. 
 
 Despite the existence of the eval() method in python, i wrote this generic to exercise my logic and understand 
