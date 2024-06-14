@@ -1,3 +1,6 @@
+
+#This is my old code; i have some improve and better but in the new file Calculator_in_1_input.py
+
 import string
 def mid(s,pos,amount):
     return s[pos:pos+amount]
