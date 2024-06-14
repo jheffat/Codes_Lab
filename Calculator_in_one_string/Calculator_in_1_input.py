@@ -27,6 +27,7 @@ oper={"^":lambda a,b:a**b,
       "+":lambda a,b:a+b,
       "-":lambda a,b:a-b}
     
+#EXAMPLE-----------------------------------------------------
 
 result=0.0
 print("\nBy Jheff Alberty 12/15/2022\n")
