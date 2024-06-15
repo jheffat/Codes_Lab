@@ -1,5 +1,5 @@
 def calc(exps):
-    #get the string into list. ex: "22+45-23" --> [22,'+',45,'-',23]
+    #get the string and put it into list. ex: "22+45-23" --> [22,'+',45,'-',23]
     express=[];gn=""
     if exps[0] in "+-":exps="0"+exps
     for l in exps:
