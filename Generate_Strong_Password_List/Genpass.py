@@ -15,6 +15,7 @@ for n in range(c):
     #passgen+="".join(choice(chars) for _ in range(l))
     #passgen="".join(sample(chars,l))
 
+    #this is optional if you want in the moment of generate a ramdom password do the hash method, in this case we use BCrypt(to hash password)
     passhash=bcrypt.hashpw(passgen.encode("utf-8"), salt=bcrypt.gensalt(rounds=10))
     print(n, " Password generated: ", passgen, "==>Hashed: ",passhash)
     passgen=""
