@@ -1,23 +1,16 @@
 # Calculator in one string
-Calculate everything what is in the string, of course must have only 
-numbers and supported operators .
+This function takes a string that contains numbers and math symbols, then calculates the result — just like Python’s eval(), but safer and more controlled.
 
-ex.: "34+7*3-44/2*2.5"
- 
-Is a function that will perform same task as eval() does, but limited, 
-the function is written in scientific mode which it follows the arithmetic rules. 
+For example:
+"34+73-44/22.5"
 
-Despite the existence of the eval() method in python, I wrote this generic to exercise my logic and understand 
-how eval() works.
+It’s written in scientific mode, meaning it follows the proper arithmetic order: parentheses, exponents, multiplication/division, and addition/subtraction.
 
-It will perfom a huge operation using - + * / and ^(Exponential notation) in one string.
+I built this function as a personal project to practice logical thinking and better understand how eval() actually works behind the scenes.
 
-operators supported:
-- --Addition
-- --Multiplacation
-- --subtraction
-- --Division
-- --Exponential notation(Still in Development)
+Supported operators include:
+➕ addition, ➖ subtraction, ✖️ multiplication, ➗ division, and ^ exponentiation (still in progress).
+
 
 
 
